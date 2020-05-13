@@ -1,0 +1,199 @@
+section {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #f2a365;
+}
+
+body {
+  background-color: #ececec;
+  color: #464a4f;
+  font-family: 'Jost', sans-serif;
+}
+
+a {
+  color: #f2a365;
+}
+
+a:hover {
+  color: #fcbb88;
+}
+
+a:visited {
+  color: #a87145;
+}
+
+@media (max-width:768px) {
+  #header-section, h1, h2, h3 {
+    text-align: center;
+  }
+}
+
+#header-section {
+  background-size: contain;
+  /* margin-top: 50px; */
+}
+
+#introduction {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#app-demo {
+  text-align: center;
+}
+
+#phone-app {
+  width: 300px;
+  margin: auto;
+}
+
+#throne {
+  width: 500px;
+  position: absolute;
+  right: 20%;
+  top: 80px;
+  transform: rotate(-20deg);
+  opacity: 5%;
+}
+
+#about-section {
+  background-color: #30475e;
+  color: #ececec;
+  position: relative;
+}
+
+#features-section {
+  margin: auto;
+}
+
+#features {
+  width: 20% margin: auto;
+}
+
+#premium-btn {
+  background-color: #f2a365;
+  border-color: #f2a365;
+}
+
+#premium-btn:hover {
+  background-color: #a87145;
+}
+
+#contact-us-section .content {
+  padding-top: 80px;
+}
+
+#contact-us-section {
+  margin: auto;
+  text-align: center;
+  background-color: #30475e;
+}
+
+#testimonials-section {
+  background-color: #30475e;
+  color: #ececec;
+}
+
+#contact-us-section .content {
+  padding: 30px 0;
+}
+
+#footer-section {
+  text-align: center;
+  color: #adadad;
+  /* color: #213040; */
+  padding: 10% 15%;
+}
+
+#contact-button {
+  background-color: #f2a365;
+  border-color: #a87145;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#contact-button:hover {
+  background-color: #a87145;
+}
+
+#testimonials {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card {
+  text-align: center;
+  height: 100%;
+}
+
+.card-area {
+  margin: 10px 0;
+}
+
+.pricing-btn {
+  width: 100%;
+}
+
+.store-img {
+  height: 25px;
+}
+
+.navbar-brand {
+  font-family: 'Baloo 2', cursive;
+  font-size: 32px;
+}
+
+.navbar-light .navbar-brand {
+  color: #f2a365;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #a87145;
+}
+
+.clear {
+  clear: both;
+}
+
+.student-img {
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+.testimonial-name {
+  font-size: 20px;
+}
+
+.carousel-caption {
+  bottom: -250px;
+}
+
+.content {
+  margin: auto;
+  background-color: inherit;
+  width: 80%;
+  position: relative;
+}
+
+.feature-name {
+  text-align: center;
+}
+
+.feature-icon {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  color: #fcbb88;
+}
+
+.feature-icon:hover {
+  color: #f2a365;
+}
+
+.feature-desc {
+  text-align: justify;
+}
